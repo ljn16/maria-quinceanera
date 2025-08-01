@@ -174,7 +174,7 @@ export default function UploadForm() {
   return (
     <div className="bg-white/90 backdrop-blur p-6 rounded-xl shadow-lg max-w-md mx-auto text-center space-y-4">
       <h2 className="text-2xl font-semibold text-gray-800">Upload a Photo or Video</h2>
-
+    
       <input
         type="file"
         accept="image/*,video/*"
