@@ -110,9 +110,13 @@ export default function QRCodePage() {
 
   return (
     <div className="min-h-screen flex items-center justify-center p-6">
-      <div className="bg-white p-4 rounded shadow">
+      <div className="bg-[#f0e0c6] p-4 rounded shadow">
         <p className="mb-4 text-center font-medium">Scan to Upload Media</p>
-        <QRCode value={uploadUrl} />
+        <QRCode 
+          value={uploadUrl} 
+          bgColor="#f0e0c6"   // light brown
+          fgColor="#000000"  // black QR code
+        />
       </div>
     </div>
   );
